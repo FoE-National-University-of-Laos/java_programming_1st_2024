@@ -1,7 +1,6 @@
 class EncapsulatedPerson {
     private String name;
     private int age;
-
     public String nickname = "John";
 
     // Constructor
