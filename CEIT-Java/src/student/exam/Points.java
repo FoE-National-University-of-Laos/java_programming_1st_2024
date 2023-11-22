@@ -9,7 +9,7 @@ public class Points {
 
     public static void main(String[] args) {
         Points points = new Points();
-        System.out.println("Your grade is ");
+        System.out.println("Your grade \n is ");
         System.out.println(points.calculatePoints(75));
     }
 }
