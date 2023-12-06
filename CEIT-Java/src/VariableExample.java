@@ -8,6 +8,9 @@ public class VariableExample {
         a = 2;
         System.out.println(a++); // 2
         System.out.println(a); // 3
+        LightExample light = new LightExample(); // create an object
+        light.turnOn();
+
 
         int b = 0;
         System.out.println(3*(-5-(7%4/2)+26*2+4));
