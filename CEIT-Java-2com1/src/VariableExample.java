@@ -9,9 +9,23 @@ public class VariableExample {
     }
 
     public static void main(String[] args) {
-        AirConditioner ac = new AirConditioner();
-        ac.turnOn();
-        ac.turnOff();
+        int x = 10;
+        int y = 5;
+        int z = 20;
+
+        if ((x + y > z) && (x - y < z)) {
+            x += 5;
+        } else {
+            x -= 3;
+        }
+
+        if (x > 15 || y < 10) {
+            z = x * 2;
+        } else {
+            z = y * 2;
+        }
+
+        System.out.println(z);
     }
 
 }
