@@ -11,6 +11,10 @@ public class LightBulb {
     static String shape;
     static String size;
 
+    public LightBulb() {
+        System.out.println("A light bulb has been created.");
+    }
+
     // these are the methods of the light bulb class
     public static void turnOn() {
         state = 1;
