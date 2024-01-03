@@ -1,4 +1,5 @@
 class LightExample {
+
     //  These are attributes of the class
     static String model;
     static String color;
@@ -6,6 +7,17 @@ class LightExample {
     static int size;
     static private int state;
     static int brightness;
+
+    public LightExample() {
+        model = "Philips";
+        color = "White";
+        power = 100;
+        size = 10;
+        state = 0;
+        brightness = 0;
+
+        System.out.println("Constructor called!");
+    }
 
     // These are methods of the class
     static void turnOn() {
@@ -20,6 +32,11 @@ class LightExample {
 
     static void changeBrightness(int brightness) {
         System.out.println("Change brightness to " + brightness);
+    }
+
+    static int changeBrightness(int brightness, int duration) {
+        System.out.println("Change brightness to " + brightness + " for " + duration + " seconds");
+        return brightness;
     }
 
     static void changeColor(String color) {

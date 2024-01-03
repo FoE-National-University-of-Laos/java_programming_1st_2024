@@ -8,6 +8,7 @@ public class VariableExample {
         a = 2;
         System.out.println(a++); // 2
         System.out.println(a); // 3
+
         LightExample light = new LightExample(); // create an object
         light.turnOn();
 
