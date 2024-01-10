@@ -11,6 +11,17 @@ public class AirConditioner {
 
     static Timer timer;
 
+    // constructor
+    public AirConditioner() {
+        brand = "Toshiba";
+        model = "ABC123";
+        color = "White";
+        size = 1;
+        temperature = 25;
+        state = 0;
+        System.out.println("Air Conditioner is created");
+    }
+
     // these are methods of the AirConditioner class
     static void turnOn() {
         state = 1;
