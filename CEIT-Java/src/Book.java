@@ -27,6 +27,16 @@ public class Book {
         System.out.println("Author: " + author);
         System.out.println("Publication Year: " + publicationYear);
         System.out.println("Price: " + price);
+        if (price < 10000.0){
+            System.out.println("This book is cheap!");
+            if (price == 0){
+                System.out.println("This book is free!");
+            }
+        } else if (price <= 50000.0){
+            System.out.println("This book is affordable!");
+        } else {
+            System.out.println("This book is expensive!");
+        }
     }
 
 }
