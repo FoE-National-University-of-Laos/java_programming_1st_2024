@@ -11,10 +11,6 @@ public class SwitchCaseExample {
             case 3:
                 System.out.println("You are in grade C");
                 break;
-            case 4:
-                System.out.println("You are in grade D");
-                break;
-
             default:
                 System.out.println("Your Grade is not available");
         }
